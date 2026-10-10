@@ -1,0 +1,22 @@
+$ bash -e -o pipefail -c javac Main.java && java Main --self-test && java Main < examples/input.txt
+tests passed
+PT101,5.000,OUTLIER,99.000000
+PT101,10.000,GAP,5.000000
+PT101,10.000,BAD_QUALITY,0.000000
+
+$ java Main
+PT101,5.000,OUTLIER,99.000000
+PT101,10.000,GAP,5.000000
+PT101,10.000,BAD_QUALITY,0.000000
+
+$ java Main
+missing input
+
+$ java Main
+invalid CSV row
+
+$ java Main --unsupported
+unsupported command arguments
+
+$ java Main
+input record too large
