@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "repository": "brunnojob/java-offshore-historian-quality-audit",
-  "source_commit": "f3adda47ecdb3834a5b8c388288105d689a3e3db",
-  "generated_at": "2026-10-10T02:36:16.427684+00:00",
-  "run_url": "https://github.com/brunnojob/java-offshore-historian-quality-audit/actions/runs/38017564173",
+  "source_commit": "3ffc2eda1a4b369ac69be4ca0a21cb4c83f64d1a",
+  "generated_at": "2026-10-10T02:44:31.944022+00:00",
+  "run_url": "https://github.com/brunnojob/java-offshore-historian-quality-audit/actions/runs/38018060815",
   "inputs_sha256": {
     ".proof/scenarios.json": "3f7e65f9b8afb79f88d185d14df7a6d22e60bd60618caf2eeffffedb94c28e7a",
     "examples/input.txt": "68b954853174751b696786242c993e3d39c53949170c99ffd822d23044bfa30e"
@@ -23,7 +23,7 @@
       "exit": 0,
       "expected_exit": 0,
       "passed": true,
-      "seconds": 1.759,
+      "seconds": 2.457,
       "output": "tests passed\nPT101,5.000,OUTLIER,99.000000\nPT101,10.000,GAP,5.000000\nPT101,10.000,BAD_QUALITY,0.000000\n",
       "output_sha256": "0a6838b214b3d2fe838b533a56cab39a528aee2c9ec009bb97e4ce3658b7fa4f"
     },
